@@ -1,0 +1,123 @@
+html,body{
+	background-color: #DDDDDD;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: sans-serif,Microsoft JhengHei;
+}
+
+div.mycontainer{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+header{
+	background-color: #888888;
+	float: left;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left: 0:;
+}
+
+header h1{
+	float: left;
+}
+
+header ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 21px 0 0 0;
+	float: right;
+}
+
+img.menu{
+	display: none;
+}
+
+@media all and (max-width:768px){
+	header ul{
+		display: none;
+	}
+}
+
+@media all and (max-width:768px){
+	img.menu{
+		display: block;
+		margin-top: 22px;
+		float: right;
+		width: 35px;
+	}
+}
+
+img.menu:hover{
+	background-color: #444444;
+}
+
+
+header ul li{
+	display: inline-block;
+}
+
+header ul li a{
+	color: #FFFFFF;
+	text-decoration:none;
+	padding: 10px;
+	display: block;
+}
+
+header ul li a:hover{
+	background-color: #444444;
+}
+
+div.overlay{
+	display: none;
+	background-color:#888888;
+	opacity: 0.7;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+div.overlay ul{
+	padding: 0;
+	margin: 100px 0 0 0;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+div.overlay ul li{
+	display: block;
+}
+
+div.overlay ul li a{
+	color: #FFFFFF;
+	text-decoration:none;
+	padding: 10px;
+	display: block;
+	font-size: 50px;
+}
+
+div.overlay ul li a:hover{
+	background-color: #444444;
+}
+
+div.overlay img.cancel{
+	display: block;
+	margin-top: 22px;
+	float: right;
+	max-width: 35px;
+	margin-right: 19px
+}
+
+div.overlay img.cancel:hover{
+	background-color: #444444;
+}
+
+img.yaseebgr{
+	width: 200%
+}
